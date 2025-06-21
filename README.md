@@ -51,23 +51,3 @@ A **Spring Cloud Gateway API Gateway** that provides:
 - Redis (running locally or on cloud)
 
 
-src/main/java/RatelimitingAPI/
-├── Authentication/
-│   ├── JwtAuthenticationFilter.java
-│   └── JwtUtil.java
-├── Config/
-│   ├── ApiGatewayConfig.java
-│   ├── RateLimitConfig.java
-│   └── RedisConfig.java
-├── Controller/
-│   ├── AuthController.java
-│   └── RateLimitController.java
-├── Entity/
-│   └── GatewayRoute.java
-├── Repo/
-│   └── GatewayRouteRepository.java
-├── Service/
-│   ├── CustomRedisRateLimiter.java
-│   └── RedisRateLimiterService.java
-└── ApiApplication.java
-
